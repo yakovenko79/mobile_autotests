@@ -4,7 +4,6 @@ public class MainClass {
     public int getLocalNumber() {
         return 14;
     }
-
     public int getClassNumber() {
         return class_number;
     }
