@@ -10,4 +10,8 @@ public class MainClassTest extends MainClass {
     public void testGetClassNumber() {
         Assert.assertTrue("getClassNumber returns value of 45 or less", getClassNumber() > 45);
     }
+    @Test
+    public void testGetClassString() {
+        Assert.assertTrue("hello or Hello aren't in getClassString", getClassString().contains("Hello") || getClassString().contains("hello"));
+    }
 }
